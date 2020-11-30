@@ -12,7 +12,7 @@ summary(wbcd[c("radius_mean","texture_mean")])
 normalize <- function(x) {
   return ((x - min(x)) / (max(x) - min(x)))
 }
-#normalize(c(1,2,3,4,5))
+#normalize(c(1,2,3,4,5)
 View(wbcd)
 str(wbcd)
 ncol(wbcd)
